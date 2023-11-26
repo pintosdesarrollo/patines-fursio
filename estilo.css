@@ -1,0 +1,237 @@
+body {
+    background-color: #30415D;
+    margin-top: 5%;
+}
+
+header {
+    background-color: #5E6F8E;
+
+}
+
+.logo {
+    border-radius: 10px;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+header h2 {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FF4D4D;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.servicios {
+    width: 85%;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardServicios {
+    display: block;
+    border: solid 1px black;
+    width: 250px;
+    height: 430px;
+    margin: 5%;
+}
+
+
+.cardServicios img {
+    background-color: #FF4D4D;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+}
+
+.cardServicios h2 {
+    color: #30415D;
+    font-size: 1.5rem;
+}
+
+.cardServicios p {
+    color: black;
+    text-align: start;
+    margin: 2%;
+    margin-bottom: 15px;
+}
+
+.cardServicios a {
+    background-color: #FF4D4D;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5%;
+}
+
+
+.cta {
+    border-radius: 15px;
+    background-color: #FF4D4D;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5%;
+    width: 450px;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #90A0B7;
+}
+
+.nos h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 3.5%;
+    margin-top: -2%;
+}
+
+.nos p {
+    margin: 3.5%;
+    text-align: left;
+    margin-top: -2.5%;
+}
+
+.masInfo {
+    display: flex;
+    margin: 5%;
+}
+
+.masInfo img {
+    width: 900px;
+    margin-right: 4%;
+}
+.infoDiv h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer {
+    background-color:#1F2A3C;
+}
+footer h4 {
+    color: #FFFFFF;
+}
+footer a {
+    color: #90A0B7;
+
+}
+
+#contacto h2 {
+    text-align: center;
+}
+.contacto {
+    display: flex;
+}
+
+.contacto {
+   display: flex;
+   justify-content: center;
+}
+
+iframe {
+    width: 500px;
+    height: 350px;
+}
+.redes {
+    width: 350px;
+}
+
+
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+#animatedSection {
+    animation: moveDown 0.5s ease-out; /* Ajusta la duración y el tipo de animación según tus preferencias */
+}
+
+
+@media (max-width: 767px) {
+    body {
+        margin-top: 35%;
+    }
+
+
+    h1 {
+        
+        margin: 3%;
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+
+
+    .servicios {
+        width: 85%;
+        background-color: #FFFFFF;
+        text-align: center;
+        height: 1370px;
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite que las cards se envuelvan en líneas adicionales si no caben en una sola línea */
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        /* Para centrar el bloque .servicios horizontalmente */
+    }
+
+    .cardServicios {
+        border: 1px solid black;
+        width: 90%;
+        height: 410px;
+        margin: 10px;
+        /* Ajusta según sea necesario */
+    }
+    .cta {
+        width: 300px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .masInfo {
+        display: block;
+        margin: 3.5%;
+    }
+    .masInfo img {
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+    .redes {
+        width: 50px;
+    }
+}
